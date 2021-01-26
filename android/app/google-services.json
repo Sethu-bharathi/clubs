@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "907457160810",
+    "project_id": "clubs-cdc02",
+    "storage_bucket": "clubs-cdc02.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907457160810:android:a299596c1939ad34e84c13",
+        "android_client_info": {
+          "package_name": "com.example.clubs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "907457160810-csjr7jj7crkh68bg65r0k1a21hpfrneb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXisjWIpFy9mqpiGgYYIQ8voYu9KrrDuM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "907457160810-csjr7jj7crkh68bg65r0k1a21hpfrneb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

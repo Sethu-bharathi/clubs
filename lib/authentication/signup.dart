@@ -1,5 +1,6 @@
 import 'package:clubs/authentication/Login.dart';
 import 'package:flutter/material.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 
 class Signup extends StatefulWidget {
   static final id="Signup";
@@ -195,5 +196,11 @@ class _SignupState extends State<Signup> {
         ),
       ),
     );
+  }
+}
+Future <void> signup(String email,String password)async{
+  final _auth=FirebaseAuth.instance;
+  if(email.contains("@cit.edu.in")){
+    await _auth.createUserWithEmailAndPassword(email: email, password: password);
   }
 }
